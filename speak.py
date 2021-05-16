@@ -14,7 +14,7 @@ if __name__ == '__main__':
 
    speak("Live breaking news from Australia")
 
-   url = "https://newsapi.org/v2/top-headlines?country=au&apiKey=c4266fa28ebf44da96e88e589569986a"
+   url = "https://newsapi.org/v2/top-headlines?country=au&apiKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
    news = requests.get(url).text
 
    news_parse = json.loads(news)
